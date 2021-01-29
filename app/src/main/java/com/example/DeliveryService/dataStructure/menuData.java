@@ -1,6 +1,4 @@
-package com.example.whitesnow.dataStructure;
-
-import com.example.whitesnow.R;
+package com.example.DeliveryService.dataStructure;
 
 public class menuData {
     private String menuName;

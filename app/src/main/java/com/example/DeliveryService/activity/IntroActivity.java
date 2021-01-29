@@ -1,9 +1,8 @@
-package com.example.whitesnow.activity;
+package com.example.DeliveryService.activity;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
-import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
@@ -11,10 +10,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.example.whitesnow.R;
+import com.example.DeliveryService.R;
 
 
-import static com.example.whitesnow.manager.StaticUtils.setFullScreenMode;
+import static com.example.DeliveryService.manager.StaticUtils.setFullScreenMode;
 
 public class IntroActivity extends AppCompatActivity {
     @Override

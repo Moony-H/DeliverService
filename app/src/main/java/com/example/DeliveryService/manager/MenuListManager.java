@@ -1,13 +1,11 @@
-package com.example.whitesnow.manager;
+package com.example.DeliveryService.manager;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.GridLayout;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import com.example.whitesnow.R;
+import com.example.DeliveryService.R;
 
 public class MenuListManager {
     public void addList(Context context, GridLayout gridLayout){

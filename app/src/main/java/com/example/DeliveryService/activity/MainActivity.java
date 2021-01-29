@@ -1,19 +1,16 @@
-package com.example.whitesnow.activity;
+package com.example.DeliveryService.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.view.WindowManager;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
-import com.example.whitesnow.R;
+import com.example.DeliveryService.R;
 
-import static com.example.whitesnow.manager.StaticUtils.intentManager;
-import static com.example.whitesnow.manager.StaticUtils.setFullScreenMode;
+import static com.example.DeliveryService.manager.StaticUtils.intentManager;
+import static com.example.DeliveryService.manager.StaticUtils.setFullScreenMode;
 
 public class MainActivity extends AppCompatActivity {
 

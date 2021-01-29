@@ -1,11 +1,11 @@
-package com.example.whitesnow.manager;
+package com.example.DeliveryService.manager;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.WindowManager;
 
-import com.example.whitesnow.dataStructure.pair;
+import com.example.DeliveryService.dataStructure.pair;
 
 import java.util.List;
 

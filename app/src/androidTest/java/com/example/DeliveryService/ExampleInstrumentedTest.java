@@ -1,4 +1,4 @@
-package com.example.whitesnow;
+package com.example.DeliveryService;
 
 import android.content.Context;
 

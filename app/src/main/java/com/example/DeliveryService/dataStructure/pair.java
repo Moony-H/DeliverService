@@ -1,4 +1,4 @@
-package com.example.whitesnow.dataStructure;
+package com.example.DeliveryService.dataStructure;
 
 public class pair<K,V> {
     K first;
