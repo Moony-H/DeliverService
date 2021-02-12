@@ -1,27 +1,19 @@
 package com.example.DeliveryService.staticdata;
 
 import com.example.DeliveryService.R;
+import com.example.DeliveryService.dataStructure.menuData;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class menuList {
-    public static final List<menus> menu= new ArrayList(){
+    public static final ArrayList menu= new ArrayList(){
         {
-            add(new menus("한식",R.drawable.rice));
-            add(new menus("양식",R.drawable.rice));
-            add(new menus("중식",R.drawable.rice));
+            add(new menuData("한식",R.drawable.rice,menuTag.KOREAN_FOOD));
+            add(new menuData("양식",R.drawable.rice,menuTag.WESTERN_FOOD));
+            add(new menuData("중식",R.drawable.rice,menuTag.CHINESE_FOOD));
         }
     };
 
-    public static class menus{
-        public String menuName;
-        public int menuImage;
-        public menus(String menuName,int menuImage){
-            this.menuName=menuName;
-            this.menuImage=menuImage;
-        }
-
-    }
 
 }
