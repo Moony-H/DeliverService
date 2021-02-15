@@ -10,8 +10,8 @@ public class menuList {
     public static final ArrayList menu= new ArrayList(){
         {
             add(new menuData("한식",R.drawable.rice,menuTag.KOREAN_FOOD));
-            add(new menuData("양식",R.drawable.rice,menuTag.WESTERN_FOOD));
-            add(new menuData("중식",R.drawable.rice,menuTag.CHINESE_FOOD));
+            add(new menuData("양식",R.drawable.pizza,menuTag.WESTERN_FOOD));
+            add(new menuData("중식",R.drawable.noodles,menuTag.CHINESE_FOOD));
         }
     };
 
