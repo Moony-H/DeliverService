@@ -1,5 +1,6 @@
 package com.example.DeliveryService.manager;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.DeliveryService.R;
+import com.example.DeliveryService.activity.MenuActivity;
 import com.example.DeliveryService.data.MainGridItem;
 
 import java.util.ArrayList;
@@ -38,13 +40,21 @@ public class MainGridAdapter extends RecyclerView.Adapter<MainGridAdapter.ViewHo
         holder.image.setImageResource(menus.get(position).image);
         holder.text.setText(menus.get(position).name);
         holder.menuTag=menus.get(position).tag;
+        holder.itemView.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(v.getContext(), MenuActivity.class);
+                intent.putExtra("menuTag",holder.menuTag);
+            }
+        });
 
 
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return menus.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
