@@ -21,7 +21,7 @@ public class StaticUtils {
         Intent intent= new Intent(now,next);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         for(int i=0; i<putEx.size();i++){
-            intent.putExtra(putEx.get(i).First(),putEx.get(i).Second());
+            intent.putExtra(putEx.get(i).getFirst(),putEx.get(i).getSecond());
 
         }
         now.startActivity(intent);

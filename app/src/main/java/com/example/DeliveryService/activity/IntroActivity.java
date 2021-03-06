@@ -40,10 +40,6 @@ public class IntroActivity extends AppCompatActivity {
 
         //3초후 넘어감.
         Handler mHandler = new Handler();
-        mHandler.postDelayed(new Runnable()  {
-            public void run() {
-                finish();
-            }
-        }, 3000);
+        mHandler.postDelayed(this::finish, 3000);
     }
 }
